@@ -76,8 +76,9 @@ public class SignUpTest {
         boolean isDisplayed = driver.findElement(By.className("error_message")).isDisplayed();
         Assert.assertTrue(isDisplayed, "Не отображена ошибка \"Oops, error on page. ZIP code should have 5 digits\"");
 
+
         // Закрыть браузер
          driver.quit();
     }
-    
+
 }
